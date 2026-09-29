@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Actuarial Closing Data Platform dosya ve Power Query indirme merkezi.">
+  <title>Actuarial Closing Data Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">Bactuary / veri platformu</p>
+      <h1>Actuarial Closing<br><span>Data Platform</span></h1>
+      <p class="intro">Excel modeli, veri üretim betiği ve üretime hazır Power Query katmanını tek yerden indirin.</p>
+      <div class="hero-meta">
+        <span class="status-dot"></span>
+        <span>v1.1.0 · 28 sorgu · Excel modeli</span>
+      </div>
+    </header>
+
+    <section class="downloads" aria-labelledby="downloads-title">
+      <div class="section-heading">
+        <p class="eyebrow">Başlangıç paketi</p>
+        <h2 id="downloads-title">Temel dosyalar</h2>
+      </div>
+      <div class="featured-grid">
+        <article class="download-card primary-card">
+          <div class="card-topline"><span class="file-type xlsx">XLSX</span><span class="card-index">01</span></div>
+          <h3>Actuarial Closing Platform</h3>
+          <p>Power Query kodları, parametreler, veri modeli ve çıktı sayfalarıyla birlikte ana çalışma kitabı.</p>
+          <a class="download-link" href="actuarydatacreating/Actuarial_Closing_Platform.xlsx" download>Excel'i indir <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="download-card">
+          <div class="card-topline"><span class="file-type py">PY</span><span class="card-index">02</span></div>
+          <h3>Örnek veri üretici</h3>
+          <p>2025 ve 2026 ödeme listelerini örnek verilerle oluşturan Python betiği.</p>
+          <a class="download-link" href="actuarydatacreating/datacreating.py" download>Python betiğini indir <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="download-card">
+          <div class="card-topline"><span class="file-type txt">TXT</span><span class="card-index">03</span></div>
+          <h3>Toplu sorgu yedeği</h3>
+          <p>28 sorgunun bağımlılık sırasındaki tek metin dosyası; yeniden kurulum için hazır.</p>
+          <a class="download-link" href="actuarydatacreating/PowerQuery_M/ALL_QUERIES.txt" download>Toplu sorguları indir <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="query-section" aria-labelledby="queries-title">
+      <div class="section-heading query-heading">
+        <div>
+          <p class="eyebrow">Power Query / M</p>
+          <h2 id="queries-title">28 sorgunun tamamı</h2>
+        </div>
+        <a class="outline-link" href="actuarydatacreating/PowerQuery_M/ALL_QUERIES.txt" download>Hepsini indir <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="query-list">
+        <a href="actuarydatacreating/PowerQuery_M/01_fnParam.pq" download><span>01</span><strong>fnParam</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/02_fnNormalizeHeader.pq" download><span>02</span><strong>fnNormalizeHeader</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/03_fnToText.pq" download><span>03</span><strong>fnToText</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/04_fnToNumber.pq" download><span>04</span><strong>fnToNumber</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/05_fnToDate.pq" download><span>05</span><strong>fnToDate</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/06_fnConvertValue.pq" download><span>06</span><strong>fnConvertValue</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/07_fnParseFileName.pq" download><span>07</span><strong>fnParseFileName</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/08_fnNormalizeCurrency.pq" download><span>08</span><strong>fnNormalizeCurrency</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/09_cfgTypeMap.pq" download><span>09</span><strong>cfgTypeMap</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/10_cfgIssueSchema.pq" download><span>10</span><strong>cfgIssueSchema</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/11_cfgColumnMap.pq" download><span>11</span><strong>cfgColumnMap</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/12_cfgModelColumns.pq" download><span>12</span><strong>cfgModelColumns</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/13_cfgCurrencyAlias.pq" download><span>13</span><strong>cfgCurrencyAlias</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/14_fnStandardizeFile.pq" download><span>14</span><strong>fnStandardizeFile</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/15_fnConformArchive.pq" download><span>15</span><strong>fnConformArchive</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/16_qSrc_Files.pq" download><span>16</span><strong>qSrc_Files</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/17_qSrc_Active.pq" download><span>17</span><strong>qSrc_Active</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/18_qStd_Active.pq" download><span>18</span><strong>qStd_Active</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/19_qStd_Archive.pq" download><span>19</span><strong>qStd_Archive</strong><small>connection only</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/20_DimFXRate.pq" download><span>20</span><strong>DimFXRate</strong><small>Data Model</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/21_FactPayment.pq" download><span>21</span><strong>FactPayment</strong><small>Data Model</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/22_DimDate.pq" download><span>22</span><strong>DimDate</strong><small>Data Model</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/23_DimCompany.pq" download><span>23</span><strong>DimCompany</strong><small>Data Model</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/24_STG_Refresh.pq" download><span>24</span><strong>STG_Refresh</strong><small>Sheet</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/25_STG_Files.pq" download><span>25</span><strong>STG_Files</strong><small>Sheet</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/26_STG_ActiveFact.pq" download><span>26</span><strong>STG_ActiveFact</strong><small>Sheet</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/27_STG_Summary.pq" download><span>27</span><strong>STG_Summary</strong><small>Sheet</small></a>
+        <a href="actuarydatacreating/PowerQuery_M/28_STG_DQ.pq" download><span>28</span><strong>STG_DQ</strong><small>Sheet</small></a>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Bactuary</span>
+      <a href="README.md">Proje README'si</a>
+      <span>Power Query M · Excel</span>
+    </footer>
+  </main>
+</body>
+</html>
